@@ -1,8 +1,7 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 import { MdOutlineFileDownload } from "react-icons/md";
-
-const pdfFile = 'https://drive.google.com/u/0/uc?id=1XASQ50oP_JtOXMjC2z0X_uYJyTkwFCsk&export=download'
+import pdfFile from '../../assets/resume_of_Mahbubur_Rahman.pdf'
 
 const textVariants = {
   initial: {
